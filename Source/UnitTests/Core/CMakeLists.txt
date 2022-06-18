@@ -38,3 +38,5 @@ endif()
 target_sources(PowerPCTest PRIVATE
   PowerPC/TestValues.h
 )
+
+add_dolphin_test(ARDecryptTest ARDecryptTest.cpp)
